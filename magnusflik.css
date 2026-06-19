@@ -1,0 +1,98 @@
+<link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/thpzqkqhf1pzqnx/game-icons.css">
+
+<style>
+@font-face{
+font-family:'VENOM';
+src:url('https://dl.dropbox.com/scl/fi/qonjf0hdxt1n3bgfyplii/VENOM.woff2?rlkey=xu5hwsq5siefopm032vtp8sxc&st=uri0v2hj&dl=0') format('woff2');}
+
+.magnus-signature{
+--sig-width:400px;
+--sig-height:200px;
+--title-font:'VENOM',serif;
+--text-font:'Courier New',monospace;
+--title-size:28px;
+--text-size:5px;
+--text-color:#d9d4d4;
+--accent-color:#ffffff;
+--icon-size:42px;
+--glow:
+0 0 10px rgba(255,255,255,0.3),
+0 0 25px rgba(255,255,255,0.12);
+
+width:var(--sig-width);
+height:var(--sig-height);
+margin:auto;
+position:relative;
+overflow:hidden;
+font-family:var(--text-font);
+color:var(--text-color);
+background:
+url('https://i.imgur.com/MdODze1.jpeg')
+center/cover
+no-repeat;}
+
+.magnus-signature::before{
+content:"";
+position:absolute;
+inset:0;
+background:var(--overlay);
+z-index:1;}
+
+.magnus-signature > *{
+position:relative;
+z-index:2;}
+
+.magnus-signature-title{
+position:absolute;
+top:50%;left:50%;
+transform:translate(-50%,-50%);
+width:100%;
+text-align:center;
+font-family:var(--title-font);
+font-size:var(--title-size);
+line-height:.8em;
+letter-spacing:3px;
+color:var(--accent-color);
+text-shadow:var(--glow);
+animation:magnusFlick 3s infinite linear;}
+
+.magnus-signature-title span{
+display:block;
+margin-bottom:8px;
+font-family:var(--text-font);
+font-size:5px;
+letter-spacing:4px;
+text-transform:uppercase;}
+
+.magnus-signature-bottom{
+position:absolute;
+bottom:18px;
+right:20px;
+width:140px;
+text-align:right;}
+
+.magnus-signature-icon{
+margin-bottom:8px;
+opacity:.8;}
+
+.magnus-signature-icon i{
+font-size:calc(var(--icon-size) + 4px);}
+
+.magnus-signature-text{
+font-size:var(--text-size);
+line-height:1.7em;
+letter-spacing:2px;
+text-transform:uppercase;}
+
+@keyframes magnusFlick{
+0%{opacity:1;}
+4%{opacity:.3;}
+5%{opacity:1;}
+10%{opacity:.6;}
+11%{opacity:1;}
+45%{opacity:1;}
+46%{opacity:.2;}
+47%{opacity:1;}
+100%{opacity:1;}}
+
+</style>
