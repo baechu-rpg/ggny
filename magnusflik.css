@@ -2,13 +2,13 @@
 
 <style>
 @font-face{
-font-family:'VENOM';
-src:url('https://dl.dropbox.com/scl/fi/qonjf0hdxt1n3bgfyplii/VENOM.woff2?rlkey=xu5hwsq5siefopm032vtp8sxc&st=uri0v2hj&dl=0') format('woff2');}
+font-family:'soul-handwriting';
+src:url('https://cdn.jsdelivr.net/gh/baechu-rpg/ggny@b97c872601cd1263d95d54d06280ad5ecf6a80eb/soul-handwriting.ttf') format('truetype');}
 
 .magnus-signature{
---sig-width:400px;
---sig-height:200px;
---title-font:'VENOM',serif;
+--sig-width:350px;
+--sig-height:262px;
+--title-font:'soul-handwriting',serif;
 --text-font:'Courier New',monospace;
 --title-size:28px;
 --text-size:5px;
@@ -27,7 +27,7 @@ overflow:hidden;
 font-family:var(--text-font);
 color:var(--text-color);
 background:
-url('https://i.imgur.com/MdODze1.jpeg')
+url('https://i.imgur.com/i3A8m8s.gif')
 center/cover
 no-repeat;}
 
